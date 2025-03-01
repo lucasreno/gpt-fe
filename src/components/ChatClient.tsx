@@ -122,7 +122,7 @@ export default function ChatClient() {
     return (
         <div className="flex flex-col gap-4 w-full max-w-4xl mx-auto p-4 h-[90vh]">
             <div className="flex justify-between items-center">
-                <h1 className="text-2xl font-bold">Assistente de Projetos</h1>
+                <h1 className="text-2xl font-bold">Chatbot</h1>
                 <button
                     onClick={startConversation}
                     className="rounded-md bg-blue-600 hover:bg-blue-700 text-white transition-colors py-2 px-4 flex items-center justify-center gap-2"
